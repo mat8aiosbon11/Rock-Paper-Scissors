@@ -24,3 +24,6 @@ else:
     elif compchoice == 'Scissors' and playerchoice == 'Paper':
         print ('The Computer Has Chosen', compchoice)
         print ('You Lose!')
+    elif compchoice == playerchoice:
+        print ('The Computer Has Chosen', compchoice)
+        print ("It's a Draw!")
